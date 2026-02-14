@@ -7,7 +7,8 @@
  * An MCP server that gives AI agents secure, budget-gated API access
  * without ever exposing a single credential.
  *
- * Every call gets a cryptographic receipt. Drop-in, works with any setup.
+ * All credentials, wallet, and receipts live on HLOS.
+ * Nothing on disk except a session token.
  */
 export {};
 //# sourceMappingURL=index.d.ts.map

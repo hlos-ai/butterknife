@@ -1,12 +1,16 @@
 {
   "name": "mcp-butterknife",
-  "version": "0.1.0",
+  "version": "0.3.2",
   "description": "Don't let your lobster see the butter knife. Credential-brokered API access for AI agents.",
   "main": "dist/index.js",
   "bin": {
     "mcp-butterknife": "dist/index.js"
   },
   "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
@@ -14,14 +18,20 @@
   },
   "keywords": [
     "mcp",
-    "openclaw",
+    "hlos",
     "ai-agent",
     "credentials",
     "security",
-    "api-gateway"
+    "api-gateway",
+    "openclaw"
   ],
   "author": "hlos-ai",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hlos-ai/mcp-butterknife"
+  },
+  "homepage": "https://hlos.ai",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
     "zod": "^3.24.2"
@@ -32,6 +42,6 @@
     "typescript": "^5.7.0"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=18"
   }
 }
